@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	int input;			//ÀÔ·Â °ª
-	int tempNums = 10;	//ÀÚ¸´¼ö ±¸ÇÒ ¶§ ³ª´©´Â °ª
-	int number = 1;		//ÀÚ¸´¼ö
-	int total = 0;		//ÇÕ°è
+	int input;		//ì…ë ¥ ê°’
+	int tempNums = 10;	//ìë¦¿ìˆ˜ êµ¬í•  ë•Œ ë‚˜ëˆ„ëŠ” ê°’
+	int number = 1;		//ìë¦¿ìˆ˜
+	int total = 0;		//í•©ê³„
 
 	scanf_s("%d", &input);
 
@@ -15,7 +15,7 @@ int main(void)
 	}
 	number /= 10;
 
-	printf("ÀÚ¸´¼ö : %d ÀÚ¸®\n", number);
+	printf("ìë¦¿ìˆ˜ : %d ìë¦¬\n", number);
 
 	while (1)
 	{
@@ -25,19 +25,19 @@ int main(void)
 		
 		if (temp % 2 == 1)
 		{
-			printf("%d ÀÚ¸® ¿¡¼­ »©¿Â °ª : %d\n", number, temp);
-			total += temp;	//°ªÀ» ´õÇØÁØ´Ù.
+			printf("%d ìë¦¬ ì—ì„œ ë¹¼ì˜¨ ê°’ : %d\n", number, temp);
+			total += temp;	//ê°’ì„ ë”í•´ì¤€ë‹¤.
 		}
 		else
 		{
-			printf("%d ÀÚ¸® ¿¡¼­´Â È¦¼ö°¡ ¾øÀ½\n", number);
+			printf("%d ìë¦¬ ì—ì„œëŠ” í™€ìˆ˜ê°€ ì—†ìŒ\n", number);
 		}
 
 		if (number == 1) break;
 		else number /= 10;
 	}
 
-	printf("\nÀÚ¸´¼ö È¦¼ö¸¦ ´õÇÑ °ª : %d", total);
+	printf("\nìë¦¿ìˆ˜ í™€ìˆ˜ë¥¼ ë”í•œ ê°’ : %d", total);
 	//printf("%d", total);
 
 	return 0;
