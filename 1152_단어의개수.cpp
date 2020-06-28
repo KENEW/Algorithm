@@ -8,7 +8,7 @@
 //	int j;
 //	int count = 0;
 //	char space = ' ';
-//	
+//
 //	for (int i = 0; i < str.size(); i++)
 //	{
 //		if (str.at(i) != space)

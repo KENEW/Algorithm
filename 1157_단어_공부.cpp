@@ -22,7 +22,7 @@
 //
 //	for (int i = 0; i < 26; i++)
 //	{
-//		if(i == 0)	
+//		if(i == 0)
 //		{
 //			maxNum = arr[i];
 //			maxChar = i;
@@ -43,7 +43,7 @@
 //
 //int main(void)
 //{
-//	string str;	
+//	string str;
 //	cin >> str;
 //
 //	soloution(str);
